@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  devIndicators: {
-    position: 'bottom-right'
+  experimental: {
+    serverActions: true // Enable Server Actions
   }
 };
 
